@@ -1,6 +1,8 @@
-p = 10000
-r = 5
-t = 2
+import sys
+
+p = float(sys.argv[1])
+r = float(sys.argv[2])
+t = float(sys.argv[3])
 
 si = (p * r * t) / 100
 
